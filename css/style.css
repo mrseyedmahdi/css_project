@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&display=swap');
+@import url(font-awesome.min.css);
+
+
+* {
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Arima', cursive;
+    color: #444;
+    font-size: 100%;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header h1 {
+    float: left;
+}
+
+.header {
+    background-color: #444;
+    background-image: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+}
+
+.top-menu {
+    padding: 40px;
+
+}
+
+.right-menu {
+    text-align: right;
+}
+
+.right-menu ul li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 1.1rem;
+}
+
+.right-menu ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.2s ease-in-out;
+}
+
+.right-menu ul li a:hover {
+    color: #fff;
+
+}
+
+.banner-content {
+    color: #fff;
+    text-align: center;
+    padding: 200px 0
+}
+
+.title {
+    line-height: 100px;
+    font-size: 2rem;
+}
+
+.sub-title p {
+    font-size: 1.4rem;
+    line-height: 60px;
+}
+
+.btn {
+    text-align: center;
+    font-family: 'Arima', cursive;
+    padding: 13px 25px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.btn-gray {
+    background-color: #fff;
+    color: #444 !important;
+}
+
+.btn-blue {
+    background-color: rgb(16, 198, 235) !important;
+    color: #fff !important;
+}
+
+.btn-big {
+    font-size: 1.3rem;
+    border-radius: 15px;
+    padding: 15px 20px;
+
+}
+
+.btn-dark {
+    background-color: #383b43;
+    color: rgb(255, 255, 255) !important;
+}
+
+.services {
+    background-color: #ededed;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services-header {
+    margin-bottom: 50px;
+}
+
+.services-header h2 {
+    font-size: 1.8rem
+}
+
+.services-header p {
+    color: darkgray;
+    font-size: 1.4rem;
+}
+
+.services-content {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.services-content .box {
+    /* display: inline-block; */
+    float: left;
+    border-radius: 5px;
+    width: calc(calc(100% / 3) - 82px);
+    margin: 0 10px;
+    padding: 70px 30px;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.icon:before {
+    font-family: fontawesome;
+    font-style: normal;
+}
+
+.color-blue {
+    background-color: #3cadd4;
+    color: white;
+}
+
+.color-green {
+    background-color: #add43c;
+    color: white;
+}
+
+.color-red {
+    background-color: #d43c61;
+    color: white;
+}
+
+.big {
+    font-size: 2.7rem;
+    padding: 35px 50px;
+    border-radius: 50%;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
+.box h4 {
+    color: #858588;
+    margin: 50px 0 30px 0;
+    font-size: 1.4rem;
+
+}
+
+.box p {
+    line-height: 25px;
+}
+
+/* about  */
+
+.about {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-header h2 {
+    font-size: 1.8rem
+}
+
+.about-header p {
+    color: darkgray;
+    font-size: 1.4rem;
+}
+
+.about-content {
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+    margin: 60px auto;
+    padding: 60px;
+    width: 90%;
+}
+
+.about-content>* {
+    float: left;
+}
+
+.profile {
+    width: 25%;
+}
+
+.profile img {
+    float: left;
+    border-radius: 50%;
+}
+
+.profile h4 {
+    margin-top: 5px;
+    padding-right: 25px;
+}
+
+.profile p {
+    line-height: 25px;
+    padding-right: 25px;
+
+}
+
+
+.about-footer {
+    width: 65%;
+    margin: 65px auto;
+
+
+}
+
+.about-footer p {
+    line-height: 30px;
+}
+
+.contact {
+    background-color: #3cadd4;
+    color: white;
+    padding: 75px;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.contact-header p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 10px;
+    width: 25%;
+    margin: 0 10px 10px 0;
+}
+
+input[type="email"] {
+    margin: 0 0 10px 0;
+
+}
+
+textarea {
+    width: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+    height: 150px;
+}
+
+::placeholder {
+    font-family: 'Arima', cursive;
+    font-size: 0.9rem;
+}
+
+/* button  */
+
+
+.btn-hover {
+    border: 3px solid white;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.footer {
+    background-color: #383b43;
+    padding: 75px 0px;
+
+}
+
+.copyright li {
+    color: white;
+    display: inline-block;
+    margin: 0 5px;
+}
